@@ -37,7 +37,7 @@ function setup() {
   music.play();
 
   muteButton = createButton("Mute");
-  muteButton.position(0, 550);
+  muteButton.position(5, height-30);
   muteButton.mousePressed(mute);
 }
 
@@ -138,8 +138,8 @@ class Bird {
 
 class Pipe {
   constructor() {
-    this.top = random(150, 250);
-    this.bottom = random(150, 250);
+    this.top = random(height/6, height/2);
+    this.bottom = height-this.top-random(60,200);
     this.x = width;
     this.w = 20;
     this.speed = 3;
