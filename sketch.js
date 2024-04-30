@@ -191,7 +191,7 @@ function mute() {
   gameMuted = true;
   muteButton.remove();
   unmuteButton = createButton("Unmute");
-  unmuteButton.position(0, 550);
+  unmuteButton.position(5, height - 30);
   unmuteButton.mousePressed(unmute);
 }
 
@@ -201,6 +201,6 @@ function unmute() {
   gameMuted = false;
   unmuteButton.remove();
   muteButton = createButton("Mute");
-  muteButton.position(0, 550);
+  muteButton.position(5, height - 30);
   muteButton.mousePressed(mute);
 }
