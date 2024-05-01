@@ -35,7 +35,7 @@ class Splash {
     this.name = createDiv("Aidan Eyth & Leo Ross");
     this.name.position(this.splashBorder + 20, this.splashBorder + 60);
 
-    this.info = createDiv("The classic game Flappy Bird recreated by Aidan Eyth & Leo Ross. Press the SPACE BAR to jump through the pipes. Enjoy! <p> Sound FX: Aidan Eyth <p> Music: Leo Ross <p> Code: Aidan Eyth and Leo Ross <a href=https://editor.p5js.org/aidaneyth/sketches/eF6e4BvZf</a>"
+    this.info = createDiv("The classic game Flappy Bird recreated by Aidan Eyth & Leo Ross. Press the SPACE BAR to jump through the pipes. Enjoy! <p> Sound FX: Aidan Eyth <p> Music: Leo Ross <p> Code: Aidan Eyth and Leo Ross <p> <a href=https://editor.p5js.org/aidaneyth/sketches/eF6e4BvZf>view code</a>"
     );
 
     this.info.position(this.splashBorder + 20, this.splashBorder + 100);
